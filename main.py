@@ -19,8 +19,8 @@ def sub_name_extension():
 """
 
 
-def subtitle_file_rename(MOVIES_DIRECTORY = 'D:\TORRENT\Monster [Ultimate Collection] By Kira [SEV]\movie' + "\\",
-                     SUBTITLE_DIRECTORY = 'D:/TORRENT/Monster [Ultimate Collection] By Kira [SEV]/sub/' + "\\"):
+def subtitle_file_rename(MOVIES_DIRECTORY = 'D:\TORRENT\movie' + "\\",
+                     SUBTITLE_DIRECTORY = 'D:/TORRENT/sub/' + "\\"):
 
     movie_files = os.listdir(MOVIES_DIRECTORY)
     subtitle_files = os.listdir(SUBTITLE_DIRECTORY)
